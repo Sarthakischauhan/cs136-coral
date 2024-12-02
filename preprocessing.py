@@ -41,7 +41,7 @@ class PreProcessor:
         """
         return cv.Canny(image, threshold1, threshold2)
 
-    def apply_laplacian_edge(self,image, depth=cv.CV_64f):
+    def apply_laplacian_edge(self,image, depth=cv.CV_64F):
         """
         Applies the Laplacian edge detection algorithm.
         """ 
